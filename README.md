@@ -17,6 +17,7 @@ Notebook: `PhD_Pilot_LLM_Confidence.ipynb`
 
 ## Pilot 2: retrieval added (RAG with PyTerrier)
 Notebook: `PhD_Pilot2_RAG_PyTerrier.ipynb`
+
 All 1,000 PubMedQA abstracts indexed with PyTerrier (BM25); the model answers from the top 3 retrieved abstracts.
 - The question's own abstract was ranked first 95% of the time (top 3: 98%)
 - Accuracy: 51%
